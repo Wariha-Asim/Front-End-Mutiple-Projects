@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+ 
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  #home,#aboutus,#contactus img{
+border:2px solid black;
+border-radius: 5px;
+}
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: palevioletred;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: burlywood;
+  }
+  
+  #aboutus {
+    background-color: #FFE4C4;
+  }
+  
+  #Products {
+    background-color: #FFCCCB;
+  }
+  
+  #contactus {
+    background-color: #D3D3D3;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
