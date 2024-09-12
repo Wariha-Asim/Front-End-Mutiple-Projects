@@ -21,7 +21,7 @@ btn.addEventListener("click", () => {
 
     
     if (d3 < 0) { -4<0
-        m3--; //7
+        m3--; 
         d3 += getDaysInMonth(y2, m2); 
     }
     if (m3 < 0) { 
