@@ -11,8 +11,12 @@ A classic Tic Tac Toe game where you can play against another player. The game f
 # Navigation Bar
 A responsive and customizable navigation bar designed for easy integration into websites. The navigation bar includes smooth color transitions when hovering over links, and the anchor tag colors change dynamically for a visually engaging experience. It adjusts its layout for different screen sizes, ensuring usability on all devices.
 
-3 Stopwatch
+# Stopwatch
 A functional stopwatch with start, stop, and reset features. Designed to be responsive, it is accessible and usable on both desktop and mobile devices.
+
+# Weather App
+A web application that allows users to search for weather information for any location using an API. It displays the current weather conditions, including temperature and description. The design is responsive, providing a user-friendly experience across various devices.
+
 
 # Getting Started
 To view or run any of these projects locally, follow these steps:
